@@ -3,9 +3,14 @@
 
 ## 1. 目录
 ```
+<Getting started 开始>
 1_1_HelloWorld              - 开始
 1_2_Uniform                 - 统一值
 
+<Algorithmic drawing 算法绘画>
+2_1_ShapingFunctions        - 造型函数
+2_2_1_Colors_Mix            - 颜色混合Mix
+2_2_2_Colors_HSB            - 颜色空间HSB线性
 ```
 
 ## 2. VSCode使用GLSL

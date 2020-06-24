@@ -9,7 +9,7 @@ uniform float u_time;
 
 //  Function from Iñigo Quiles
 //  https://www.shadertoy.com/view/MsS3Wc
-vec3 hsb2rgb(in vec3 c)
+vec3 hsb2rgb(in vec3 c) // in read-only
 {
     vec3 rgb=clamp(abs(mod(c.x*6.+vec3(0.,4.,2.),6.)-3.)-1.,0.,1.);
     rgb=rgb*rgb*(3.-2.*rgb);
@@ -29,7 +29,8 @@ void main()
     // Map the angle (-PI to PI) to the Hue (from 0 to 1)
     // and the Saturation to the radius
     // Saturation 饱和度
-    color=hsb2rgb(vec3((angle/TWO_PI)+0.5,radius,1.));
+    // color=hsb2rgb(vec3((angle/TWO_PI)+0.5,radius,1.));
+    color=hsb2rgb(vec3((angle/TWO_PI)+0.5,radius,1.))*step(radius,1.); // 色轮
 
     gl_FragColor=vec4(color,1.);
 }

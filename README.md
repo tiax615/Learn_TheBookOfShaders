@@ -11,6 +11,9 @@
 2_1_ShapingFunctions        - 造型函数
 2_2_1_Colors_Mix            - 颜色混合Mix
 2_2_2_Colors_HSB            - 颜色空间HSB线性
+2_3_1_Shapes_Rectangle      - 矩形
+2_3_2_Shapes_Circles        - 圆
+2_3_3_Shapes_DistanceField  - 距离场
 ```
 
 ## 2. VSCode使用GLSL

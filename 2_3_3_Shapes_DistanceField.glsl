@@ -17,7 +17,7 @@ void main()
     st=st*2.-1.;
     
     // Make the distancce field
-    d=length(abs(st)-.3);
+    d=length(abs(st)-.4);
     // d=length(min(abs(st)-.3,0.));
     // d=length(max(abs(st)-.3,0.));
     

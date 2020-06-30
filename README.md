@@ -25,6 +25,8 @@
 2_5_4_Patterns_TruchetTile  - 图案_瓷砖
 
 <Generative designs 生成设计>
+3_1_1_Random_2dRandom       - 随机_2d随机
+3_1_2_Random_Maze           - 随机_迷宫
 ```
 
 ## 2. VSCode使用GLSL

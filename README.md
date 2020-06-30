@@ -19,6 +19,12 @@
 2_3_5_Shapes_Combining      - 形状_整合
 2_4_1_Matrices_Mat          - 矩阵_平移/旋转/缩放
 2_4_2_Matrices_YUV          - 矩阵_YUV色彩空间
+2_5_1_Patterns_Tile         - 图案_平铺
+2_5_2_Patterns_Matrices     - 图案_矩阵
+2_5_3_Patterns_Offset       - 图案_偏移
+2_5_4_Patterns_TruchetTile  - 图案_瓷砖
+
+<Generative designs 生成设计>
 ```
 
 ## 2. VSCode使用GLSL

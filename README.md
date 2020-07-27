@@ -1,5 +1,5 @@
 # Learn_TheBookOfShaders
-学习《TheBookOfShaders》，GLSL着色器代码
+学习《TheBookOfShaders》，GLSL着色器代码。此书没有写完
 
 ## 1. 目录
 ```
